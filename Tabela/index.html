@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Tabela</title>
 </head>
 <body>
     
-    <table border = "4">
+    <table border="4"> <!-- Tag que insere uma tabela -->
 
-       <tr>
+       <tr> <!-- Tag que insere uma linha na tabela -->
 
-            <td><b>Nome</b></td>
+            <td><b>Nome</b></td> <!-- Tag <td> insere uma coluna/dado na tabela -->
             <td><b>Endereço</b></td>
             <td><b>CPF</b></td>
             <td><b>Telefone</b></td>
@@ -56,6 +56,20 @@
         <td>13534871233</td>
         <td>(42) 9 9936-0062</td>
         <td>Advogada</td>
+
+       </tr>
+
+       <tr>
+
+        <td rowspan="2"> <b>Inválidos</b></td> <!-- "rowspan" junta linhas -->
+        <td colspan="4">Joselton Magalhães</td> <!-- "colspan" junta colunas -->
+        
+
+       </tr>
+
+       <tr>
+
+        <td colspan="4">Jorge Bacelos</td>
 
        </tr>
 
