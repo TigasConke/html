@@ -1,0 +1,31 @@
+header{
+    border-bottom: 1px solid black ;
+    background: grey;
+    padding: 10px;
+}
+
+nav{
+    background: #333;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 105px;
+}
+
+footer{
+    background: grey;
+}
+
+article{
+    background-color: antiquewhite;
+}
+
+section{
+    border: 1px dotted rgb(83, 190, 223)
+}
+
+aside{
+    background: rgb(125, 209, 125)
+}
